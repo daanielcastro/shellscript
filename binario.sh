@@ -1,11 +1,25 @@
 #!/bin/bash
 
+# binario.sh - Programa que converte um número decimal em binário :)
+# Autor: Daniel Castro
+# Uso:
+#	O programa pode ser usado de duas formas,
+
+
+# Declaração de variáveis
 binario=
 resto=
 
-echo "Digite um numero decimal :)"
-read decimal
 
+if [[ ! -z $1 ]]; then
+	decimal=$1
+else
+	echo "Digite um numero decimal :)"
+	read decimal
+fi
+
+
+# o test usa expressão regular para verificar se o que foi digitado foi um numero ou não
 if [[ ! $decimal =~ [0-9] ]]; then
 	echo "Somente numeros decimais inteiros. Saindo agora"
 	exit 69;
