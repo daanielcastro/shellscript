@@ -9,3 +9,5 @@ Esses scripts são o que se materializou da prática de alguns livros sobre Linu
 ## São utéis?
 Utilidade é algo relativo para alguns são, para outros nem tanto. Você é útil para alguém? Talvez sim, talvez não.
 
+# Modo de uso
+É só executar
