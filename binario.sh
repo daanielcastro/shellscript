@@ -4,7 +4,7 @@
 # Autor: Daniel Castro
 # Uso:
 #	O programa pode ser usado de duas formas,
-# Alteracao que sera revertida
+
 
 binario=
 resto=
