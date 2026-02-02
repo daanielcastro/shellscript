@@ -2,7 +2,7 @@
 #
 # backup.sh - script simples que realiza o backup da pasta home usando o rsync
 
-USUARIO=daniel@192.168.1.25:
+USUARIO=""
 
 
 if [[ "$1" == "--backup" ]]; then
