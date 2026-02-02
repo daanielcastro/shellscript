@@ -10,13 +10,13 @@ if [[ "$1" == "--backup" ]]; then
 	origem="$1"
 	shift
 	servidor="$1"
-	rsync -avdru $origem daniel@192.168.1.25:${servidor}
+	rsync -avdru $origem $USUARIO:${servidor}
 elif [[ "$1" == "-d" ]]; then
 	shift
 	servidor="$1"
 	shift
 	origem="$1"
-	rsync -avdru daniel@192.168.1.25:${servidor} $origem
+	rsync -avdru $USUARIO:${servidor} $origem
 else
 	echo "Parametro  errado :)"
 	echo "Falta algo :)"
