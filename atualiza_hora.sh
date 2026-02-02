@@ -4,6 +4,5 @@
 
 sudo systemctl stop ntp
 
-sudo ntpdate -s 10.20.0.1
-
+sudo ntpdate -s $IP
 sudo systemctl start ntp
